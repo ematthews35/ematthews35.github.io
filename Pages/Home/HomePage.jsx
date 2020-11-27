@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./HomePage.css";
 
 const HomePage = () => (
-    <div className="homePage">
+    <div className={styles.HomePage}>
         <title>Eric Matthews</title>
 
         <div className="Biographical Information">
@@ -11,3 +11,5 @@ const HomePage = () => (
     </div>
 
 )
+
+export default HomePage
